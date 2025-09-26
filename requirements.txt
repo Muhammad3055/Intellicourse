@@ -1,0 +1,24 @@
+# filepath: requirements.txt
+# =========================================
+fastapi>=0.111
+uvicorn[standard]>=0.30
+python-dotenv>=1.0
+pydantic>=2.7
+
+# LangChain core + ecosystem
+langchain>=0.2
+langgraph>=0.2
+langchain-community>=0.2
+langchain-chroma>=0.1
+chromadb>=0.5
+
+# Embeddings
+langchain-huggingface>=0.1
+sentence-transformers>=3.0
+
+# LLM providers
+langchain-google-genai>=2.0
+langchain-groq>=0.2
+
+# Tools
+tavily-python>=0.3
